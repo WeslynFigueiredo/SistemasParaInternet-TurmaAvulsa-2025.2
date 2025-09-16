@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Senhas Seguras</h1>
+        
+        <div class="password-display" id="passwordDisplay">
+            Clique no botão para gerar
+            <button class="copy-btn" id="copyBtn">Copiar</button>
+        </div>
+        
+        <div class="strength-meter">
+            <div class="strength-fill" id="strengthFill"></div>
+        </div>
+        
+        <button class="generate-btn" id="generateBtn">Gerar Senha</button>
+        
+        <p class="instructions">Senha de 8 caracteres contendo letras maiúsculas, minúsculas e números</p>
+    </div>
+    
+    <div class="notification" id="notification">Senha copiada com sucesso!</div>
+    <script src="script.js"></script>
+</body>
+</html>
