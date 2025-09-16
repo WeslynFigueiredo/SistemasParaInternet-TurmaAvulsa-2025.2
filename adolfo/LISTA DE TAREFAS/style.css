@@ -1,0 +1,61 @@
+/* Estilos básicos */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}body {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-color: #f4f4f9;
+}/* Container principal */
+.container {
+width: 100%;
+max-width: 400px;
+background-color: #ffffff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+}/* Estilo do título */
+h1 {
+margin-bottom: 20px;
+}/* Estilo do campo de entrada e botão */
+.input-container {
+display: flex;
+gap: 10px;
+margin-bottom: 20px;
+}input[type="text"] {
+flex: 1;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+outline: none;
+}button {
+padding: 10px;
+border: none;
+background-color: #3498db;
+color: #ffffff;
+border-radius: 4px;
+cursor: pointer;
+}button:hover {
+background-color: #2980b9;
+}/* Estilos dos itens da lista */
+ul {
+list-style: none;
+}li {
+padding: 10px;
+background-color: #f9f9f9;
+border: 1px solid #ddd;
+border-radius: 4px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10px;
+}li .remove-btn {
+color: #e74c3c;
+cursor: pointer;
+font-weight: bold;
+}
