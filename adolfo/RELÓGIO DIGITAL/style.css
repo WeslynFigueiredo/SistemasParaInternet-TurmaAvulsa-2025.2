@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto */
+    font-family: 'Arial', sans-serif;
+}
+
+.clock {
+    font-size: 4em; /* Tamanho grande da fonte */
+    letter-spacing: 0.1em; /* Espaçamento entre os caracteres */
+}

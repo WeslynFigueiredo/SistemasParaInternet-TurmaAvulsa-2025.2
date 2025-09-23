@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-container">
+            <h1>Quiz de Conhecimentos Gerais</h1>
+            
+            <div id="quiz">
+                <!-- As perguntas serão inseridas aqui via JavaScript -->
+            </div>
+            
+            <div class="controls">
+                <button id="prev-btn" class="control-btn">Anterior</button>
+                <button id="next-btn" class="control-btn">Próxima</button>
+                <button id="submit-btn" class="control-btn">Ver Resultado</button>
+            </div>
+            
+            <div id="results" class="hidden">
+                <h2>Seu Resultado</h2>
+                <p id="score"></p>
+                <div id="answers"></div>
+                <button id="restart-btn" class="control-btn">Fazer Novamente</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
